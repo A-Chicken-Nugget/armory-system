@@ -76,7 +76,7 @@ ARMORY.BLACKLIST = {
 }
 
 --This is where you add your weapons/categories:
---EXAMPLE: armory_addCategory("Weapon Name",Show Damage Bar?,Show Recoil Bar?,Show Clipsize Bar?,Can you buy multiple?)
+--EXAMPLE: armory_addCategory("Category Name",Show Damage Bar?,Show Recoil Bar?,Show Clipsize Bar?,Can you buy multiple?)
 --EXAMPLE: armory_addItem("Category to add item to","Item name","Item class","Item world model",Price,Default damage stat,Default recoil stat,Default clipsize stat)
 --NOTE: the default stat values do not matter and aren't actully replaced with the weapons values, they are only used in the menu progress bars
 --NOTE: only use 4 categories max, any category created after 4 will not be used
