@@ -657,7 +657,7 @@ if CLIENT then
 			end
 			local logo = vgui.Create("DImage",frame)
 			logo:SetSize(200,200)
-			logo:SetImage("materials/armory-system/logo.png")
+			logo:SetImage(ARMORY.LOGO)
 			logo:SetPos(frame:GetWide()-logo:GetWide(),frame:GetTall()-logo:GetTall())
 
 			armory_layout()

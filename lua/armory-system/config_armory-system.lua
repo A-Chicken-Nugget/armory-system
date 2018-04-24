@@ -38,6 +38,9 @@ end
 //CONFIG STARTS HERE\\
 ----------------------
 
+--Logo path that shows in the bottom right corner
+ARMORY.LOGO = "materials/armory-system/logo.png"
+
 --Console command to spawn a armory entity
 ARMORY.SPAWNENTITY = "armory_spawnArmory"
 
