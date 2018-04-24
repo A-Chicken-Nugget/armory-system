@@ -1,6 +1,8 @@
 ## Garry's Mod Armory System
 A star wars themed armory addon which allows your community to purchase weapons using darkrp cash and upgrade them using upgrade points. Each weapon has its own level and can be upgraded increasing its damage and clipsize as well as decrease its recoil.
 
+Note: The config is located in lua/armory-system/config_armory-system.lua
+
 ## Features
 * A detailed config ranging from adding weapons to customizing each individual weapon level.
 * Ability to spawn an armory entitiy, which will open the armory menu when pressed on.
