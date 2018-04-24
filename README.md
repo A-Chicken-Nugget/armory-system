@@ -15,4 +15,4 @@ Note: The config is located in lua/armory-system/config_armory-system.lua
 * **armory_editEntities** - (Client console command) Allows the player to edit the currently spawned armory entities.
 * **armory_giveUpgradePoints** - (Client console command) Allows the player to give upgrade points to a certain player.
 
-Note: I kinda suck as coding and this is my first main project i've ever released to the public, so please be kind when judging my code.
+Note: I kinda suck at coding and this is my first main project i've ever released to the public, so please be kind when judging my code.
