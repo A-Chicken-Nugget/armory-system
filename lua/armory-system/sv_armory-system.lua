@@ -136,10 +136,12 @@ if SERVER then
 		end
 	end)
 	hook.Add("PlayerSay","loadDatText",function(ply,msg)
-		if ARMORY.CHATCOMMAND == string.lower(msg) then
-			net.Start("armory_panel")
-			net.Send(ply)
-			return ""
+		if ARMORY.CHATCOMMAND != false then
+			if ARMORY.CHATCOMMAND == string.lower(msg) then
+				net.Start("armory_panel")
+				net.Send(ply)
+				return ""
+			end
 		end
 	end)
 	hook.Add("PlayInitialSpawn","weaponCount",function(ply)

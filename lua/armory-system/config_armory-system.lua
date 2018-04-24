@@ -44,10 +44,13 @@ ARMORY.SPAWNENTITY = "armory_spawnArmory"
 --Console command to open the entity edit menu
 ARMORY.ENTITYEDIT = "armory_editEntities"
 
+--Model that the armory entity will use
+ARMORY.ENTITYMODEL = "models/props_wasteland/kitchen_fridge001a.mdl"
+
 --Console command to give upgrade points
 ARMORY.GIVEPOINTS = "armory_giveUpgradePoints"
 
---Chat command to open the menu
+--Chat command to open the menu (change to false to disable)
 ARMORY.CHATCOMMAND = "!armory"
 
 --Every time a player gets this many kills, they will be rewarded with upgrade points
@@ -75,7 +78,6 @@ ARMORY.BLACKLIST = {
 --NOTE: the default stat values do not matter and aren't actully replaced with the weapons values, they are only used in the menu progress bars
 --NOTE: only use 4 categories max, any category created after 4 will not be used
 armory_addCategory("Primary Weapons",true,true,true,false)
-armory_addItem("Primary Weapons","B2 Blaster Pistol","tfa_b2_blaster","models/weapons/w_dc15sa.mdl",5000,50,20,15)
 armory_addItem("Primary Weapons","Magnum","weapon_357","models/weapons/w_357.mdl",5000,50,20,5)
 armory_addItem("Primary Weapons","AR2","weapon_ar2","models/weapons/w_IRifle.mdl",4000,35,30,25)
 armory_addItem("Primary Weapons","SMG","weapon_smg1","models/weapons/w_smg1.mdl",4500,25,30,30)
@@ -86,7 +88,8 @@ armory_addItem("Secondary Weapons","RPG","weapon_rpg","models/weapons/w_rocket_l
 armory_addItem("Secondary Weapons","Crossbow","weapon_crossbow","models/weapons/w_crossbow.mdl",2000,50,5,10)
 
 --This is where you tweak each level and how it upgrades each perks
---NOTE: if a upgrade perk value is less than any default weapon perk value it will show as an orange bar 
+--NOTE: if a upgrade perk value is less than any default weapon perk value it will show as an orange bar
+--NOTE: the damage, recoil, and clipsize upgrades do not seem to work with the default gmod weapons
 ARMORY.UPGRADELEVELS = {
 	{
 		name = "Level 1", --name

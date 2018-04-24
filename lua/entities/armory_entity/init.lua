@@ -48,7 +48,7 @@ concommand.Add(ARMORY.SPAWNENTITY,function(ply)
 end)
 
 function ENT:Initialize()
-	self:SetModel("models/starwars/syphadias/props/sw_tor/bioware_ea/props/city/city_market_stand_03.mdl")
+	self:SetModel(ARMORY.ENTITYMODEL)
 	self:SetSolid(SOLID_VPHYSICS)
 	self:SetUseType(SIMPLE_USE)
 end
